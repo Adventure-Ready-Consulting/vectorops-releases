@@ -5,23 +5,24 @@
 - Windows 10 or Windows 11, 64-bit
 - Internet access for license verification and supported AI services
 
-## 1. Install the VectorOPS Publisher Certificate
+## 1. Download VectorOPS
 
-Current VectorOPS releases may require the Adventure Ready Consulting publisher certificate to be trusted before installation.
+Download the latest VectorOPS installation package from the GitHub **Releases** section of this repository.
 
-1. Download the VectorOPS certificate included with the release.
-2. Double-click the `.cer` file.
-3. Select **Install Certificate**.
-4. Choose **Local Machine**.
-5. Select **Place all certificates in the following store**.
-6. Choose **Trusted People**.
-7. Complete the certificate installation.
+For VectorOPS 1.0.1, download:
+
+`VectorOPS.Package_1.0.1.0_x64.appxbundle`
+
+VectorOPS release packages are digitally signed by **Adventure Ready Consulting LLC** using Microsoft Artifact Signing.
+
+No separate publisher certificate installation is required.
 
 ## 2. Install VectorOPS
 
-Download the VectorOPS installation package from the matching GitHub Release.
-
-Open the `.msixbundle` or installation package and follow the Windows installation prompts.
+1. Open the downloaded `.appxbundle`.
+2. Confirm that Windows identifies the publisher as **Adventure Ready Consulting LLC**.
+3. Select **Install**.
+4. Launch VectorOPS after installation completes.
 
 ## 3. Request an Operations License
 
@@ -37,7 +38,7 @@ Open the VectorOPS verification email and select **Verify Email Address**.
 
 Email verification does not activate VectorOPS.
 
-Your Operations License request will be placed in Pending Operations Approval status for Account Manager review.
+Your Operations License request will be placed in **Pending Operations Approval** status for Account Manager review.
 
 ## 5. Activation
 
@@ -46,6 +47,13 @@ After your Account Manager confirms that your Operations License has been approv
 1. Restart VectorOPS.
 2. VectorOPS will contact the licensing service.
 3. Application access will be enabled after the approved Operations License is confirmed.
+4. VectorOPS will display **Operations Approved** when licensing is complete.
+
+## Updating VectorOPS
+
+When a newer version of VectorOPS is released, download the latest signed installation package from the GitHub **Releases** section.
+
+Follow the Windows installation prompts to install the new version.
 
 ## Support
 
@@ -54,3 +62,11 @@ Account Manager
 Adventure Ready Consulting  
 (206) 679-0114  
 daveb@adventurereadyconsulting.com
+
+## Product Information
+
+https://www.vectoropssolutions.com/
+
+---
+
+© 2026 Adventure Ready Consulting LLC. All rights reserved.
